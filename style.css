@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 150vh;
+}
+
+.profile {
+	border-radius: 50%;
+	border: 6px solid whitesmoke;
+	width: 190px;
+	position: relative;
+	top: -100px;
+	margin-left: 20px;
+}
+
+.space {
+	padding-right: 10px;
+}
+
+.informatica {
+	position: relative;
+	top: -90px;
+	margin-left: 30px;
+}
+
+.contents {
+	margin-top: 60px;
+}
+
+
+/* scrollbar */
+
+/* scrollbar Animation */
+/* width */
+::-webkit-scrollbar {
+	width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px #523333;
+	border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgba(26, 152, 224, 0.75);
+	border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(10, 111, 170, 0.75);
+}
